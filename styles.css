@@ -1,0 +1,117 @@
+body {}
+
+.container {}
+
+.container-fluid {
+    background: rgb(70, 47, 140);
+    color: white;
+}
+
+#in-bag {
+    width: 80%;
+    height: auto;
+    float: right;
+}
+
+.item {
+    width: 90%;
+    height: auto;
+    margin: 5px auto;
+}
+
+nav {
+    text-align: center;
+    margin: 20px;
+}
+
+nav .btn-primary {
+    color: white;
+    background: rgb(160, 191, 162);
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: -30px 15px 20px 15px;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+.well-lg {
+    background: rgb(160, 191, 162);
+}
+
+.jumbotron {
+    background: rgb(160, 191, 162);
+    border-radius: 5px;
+    text-align: center;
+}
+
+#seamus-car {
+    width: 30%;
+    height: auto;
+    margin: 1em;
+    float: right;
+    border-radius: 15px;
+}
+
+.img-rounded {
+    width: 100%;
+    height: auto;
+    margin: 5px auto;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+    color: rgb(70, 47, 140);
+}
+
+.pager a {
+    color: rgb(70, 47, 140);
+    margin: 0 25px;
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+    color: #fff;
+    background-color: rgb(70, 47, 140);
+    border-color: rgb(70, 47, 140);
+}
+
+.panel {
+    border-color: rgba(160, 191, 162, .75);
+}
+
+.small {
+    color: rgb(70, 47, 140);
+}
+
+.panel a:active,
+.panel a:hover,
+.panel a:visited {
+    color: rgb(160, 191, 162);
+}
+
+.collapse-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: rgb(160, 191, 162);
+    ;
+    border-color: color: rgb(70, 47, 140);
+}
+
+.panel-default>.panel-heading a:visited,
+.panel-default>.panel-heading a:hover {
+    color: black;
+}
